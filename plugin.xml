@@ -22,20 +22,20 @@
         </config-file>
         <source-file src="src/android/fr/drangies/cordova/serial/Serial.java" target-dir="src/fr/drangies/cordova/serial" />
         <source-file src="src/android/fr/drangies/cordova/serial/UsbBroadcastReceiver.java" target-dir="src/fr/drangies/cordova/serial" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CdcAcmSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Ch34xSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CommonUsbSerialPort.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Cp21xxSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/FtdiSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/ProbeTable.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/ProlificSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbId.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialDriver.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialPort.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialProber.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialRuntimeException.jar" target-dir="src/com/hoho/android/usbserial/driver" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/util/HexDump.jar" target-dir="src/com/hoho/android/usbserial/util" />
-        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/util/SerialInputOutputManager.jar" target-dir="src/com/hoho/android/usbserial/util" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CdcAcmSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Ch34xSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CommonUsbSerialPort.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Cp21xxSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/FtdiSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/ProbeTable.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/ProlificSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbId.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialPort.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialProber.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/UsbSerialRuntimeException.java" target-dir="src/com/hoho/android/usbserial/driver" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/util/HexDump.java" target-dir="src/com/hoho/android/usbserial/util" />
+        <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/util/SerialInputOutputManager.java" target-dir="src/com/hoho/android/usbserial/util" />
     </platform>
 
     <!-- ubuntu -->
