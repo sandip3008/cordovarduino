@@ -22,6 +22,7 @@
         </config-file>
         <source-file src="src/android/fr/drangies/cordova/serial/Serial.java" target-dir="src/fr/drangies/cordova/serial" />
         <source-file src="src/android/fr/drangies/cordova/serial/UsbBroadcastReceiver.java" target-dir="src/fr/drangies/cordova/serial" />
+        <source-file src="lib/usb-serial-for-android/usbSerialExamples/src/main/res/xml/device_filter.xml" target-dir="res/xml" />
         <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CdcAcmSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
         <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/Ch34xSerialDriver.java" target-dir="src/com/hoho/android/usbserial/driver" />
         <source-file src="lib/usb-serial-for-android/usbSerialForAndroid/src/main/java/com/hoho/android/usbserial/driver/CommonUsbSerialPort.java" target-dir="src/com/hoho/android/usbserial/driver" />
