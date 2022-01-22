@@ -1,3 +1,3 @@
 [submodule "lib/usb-serial-for-android"]
 	path = lib/usb-serial-for-android
-	url = https://github.com/r1000ru/usb-serial-for-android
+	url = https://github.com/sandip3008/usb-serial-for-android.git
