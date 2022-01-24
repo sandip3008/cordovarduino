@@ -240,7 +240,7 @@ public class Serial extends CordovaPlugin {
 						sleepOnPause = opts.has("sleepOnPause") ? opts.getBoolean("sleepOnPause") : true;
 
 						port.open(connection);
-						port.setParameters(baudRate, dataBits, stopBits, parity);
+						// port.setParameters(baudRate, dataBits, stopBits, parity);
 						if (setDTR) port.setDTR(true);
 						if (setRTS) port.setRTS(true);
 					}
