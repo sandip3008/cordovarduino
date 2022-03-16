@@ -1,4 +1,4 @@
 [submodule "lib/usb-serial-for-android"]
 	path = lib/usb-serial-for-android
 	url = https://github.com/sandip3008/usb-serial-for-android.git
-	branch = master
+	branch = stm32support
