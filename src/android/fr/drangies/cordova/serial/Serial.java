@@ -272,7 +272,7 @@ public class Serial extends CordovaPlugin {
           driver = availableDrivers.get(0);
           UsbDevice device = driver.getDevice();
           // create the intent that will be used to get the permission
-          PendingIntent pendingIntent = PendingIntent.getBroadcast(cordova.getActivity(), 0, new Intent(UsbBroadcastReceiver.USB_PERMISSION_with_data), 0);
+          PendingIntent pendingIntent = PendingIntent.getBroadcast(cordova.getActivity(), 0, new Intent(UsbBroadcastReceiver.USB_PERMISSION_with_data), PendingIntent.FLAG_MUTABLE);
           // and a filter on the permission we ask
           IntentFilter filter = new IntentFilter();
           filter.addAction(UsbBroadcastReceiver.USB_PERMISSION_with_data);
@@ -428,7 +428,7 @@ public class Serial extends CordovaPlugin {
 			public void run() {
 				if (port == null) {
 					callbackContext.error("Reading a closed port.");
-				} 
+				}
 				else {
 					try {
 						int len = port.read(mReadBuffer.array(), READ_WAIT_MILLIS);
@@ -545,7 +545,7 @@ public class Serial extends CordovaPlugin {
 		});
 	}
 
-	/** 
+	/**
 	 * Paused activity handler
 	 * @see org.apache.cordova.CordovaPlugin#onPause(boolean)
 	 */
@@ -575,7 +575,7 @@ public class Serial extends CordovaPlugin {
 		if (sleepOnPause) {
 			if (driver == null) {
 				Log.d(TAG, "No serial device to resume.");
-			} 
+			}
 			else {
 				UsbDeviceConnection connection = manager.openDevice(driver.getDevice());
 				if (connection != null) {

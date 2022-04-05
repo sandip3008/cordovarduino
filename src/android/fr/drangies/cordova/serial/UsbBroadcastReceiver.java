@@ -70,7 +70,7 @@ public class UsbBroadcastReceiver extends BroadcastReceiver {
           Log.d(TAG, "Permission to connect to the device was accepted!");
 
           Log.i(TAG, "success to grant permission for device " + usbDevice.getDeviceId() + ", vendor_id: " + Integer.toString(usbDevice.getVendorId(), 16) + " product_id: " + Integer.toString(usbDevice.getProductId(), 16));
-          Toast.makeText(context, "success to grant permission for device " + usbDevice.getDeviceId() + ", vendor_id: " + Integer.toString(usbDevice.getVendorId(), 16) + " product_id: " + Integer.toString(usbDevice.getProductId(), 16), Toast.LENGTH_LONG).show();
+//          Toast.makeText(context, "success to grant permission for device " + usbDevice.getDeviceId() + ", vendor_id: " + Integer.toString(usbDevice.getVendorId(), 16) + " product_id: " + Integer.toString(usbDevice.getProductId(), 16), Toast.LENGTH_LONG).show();
 
           try{
             JSONObject ret = new JSONObject();
