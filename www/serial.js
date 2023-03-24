@@ -45,6 +45,15 @@ var serial = {
             [{'data': data}]
         );
     },
+    writeImage: function(data, successCallback, errorCallback) {
+        cordova.exec(
+            successCallback,
+            errorCallback,
+            'Serial',
+            'writeImage',
+            [{'data': data}]
+        );
+    },
     writeHex: function(hexString, successCallback, errorCallback) {
         cordova.exec(
             successCallback,
